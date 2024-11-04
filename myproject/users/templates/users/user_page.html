@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+{% block title%}
+    {{user.name}}
+{% endblock %}
+{% block content %}
+<section>
+    <h1>{{user.name}}</h1>
+        <p>
+            {{user.date}}
+        </p>
+        <p>
+            {{user.userid}}
+        </p>
+</section>
+{% endblock %}
